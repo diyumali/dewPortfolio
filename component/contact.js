@@ -1,5 +1,5 @@
 import React from 'react'
-import folio from '@/styles/layout.module.css'
+import folio from '@/styles/Portfolio.module.css'
 
 
 function contact() {
