@@ -1,0 +1,333 @@
+
+.MainPageFolio{
+  /* background-color: black; */
+  /* background-color: #0f5e3f; */
+  /* background-color: #438672; */
+  /* width: 99vw; */
+  background-image: url('/color03.jpg');
+  font-family: sans-serif;
+  margin: -8px;
+  padding: 8px;
+}
+.nav{
+  border: 1px solid red;
+  border: none;
+  position: fixed;
+  width: 99vw;
+  background-image: url('/color03.jpg');
+}
+.nav>a  {
+  padding: 2px 15px;
+  font-size: 18px;
+  color: antiquewhite;
+  text-decoration: none;
+  position: relative;
+ font-family: sans-serif; 
+}
+
+/* ================================================================ */
+
+.nav> a:before,
+.nav> a:after {
+content: "";
+height: 1px;
+width: 0;
+opacity: 0;
+background-color: #eee;
+position: absolute;
+transition: all .5s;
+}
+
+.nav> a:before {
+top: -3px;
+}
+
+.nav> a:after {
+bottom: -3px;
+right: 0;
+}
+
+.nav> a:hover:before,
+.nav> a:hover:after {
+width: calc(100% + 20px );
+opacity: 0.7;
+}
+/* ================================================================== */
+.mypro{
+color: antiquewhite;
+font-family: sans-serif;
+margin-left: 20px;
+padding: 10px;
+font-size: 27px;
+}
+/* =============button============= */
+.btn {
+height: 45px;
+width: 14%; 
+color:  #ffffff;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+font-size: 16px;
+cursor: pointer;
+background-color:  rgb(18, 108, 150);
+/* background-color:  green; */
+}
+
+
+/* =====================Portfolio================ */
+.body {
+display: grid;
+grid-template-columns: auto auto;
+margin-bottom: 80px;
+}
+
+/* =======Heding====== */
+.heding {
+color: white;
+padding: 10%;
+text-align: left;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =========Secound======= */
+.secound {
+font-size: 20px;
+color: white;
+margin-left: 70px;
+position: relative;
+top: -20px;
+}
+
+/* ==========Span1==========*/
+#span1 {
+  font-size: 30px;
+  color: #0a66c2;
+  padding: 5px;
+} 
+#span2 {
+  font-size: 30px;
+  color: rgb(240, 224, 228);
+  padding: 5px;
+} 
+#span3 {
+  font-size: 30px;
+  background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+ position: absolute;
+ border-radius: 3px;
+ margin-top: 7px;
+} 
+
+/* =======rightdiv==========*/
+.rightdiv {
+color: white;
+}
+
+/* =========MyImage=========*/
+#Image {
+  width: 320px;
+  height: 320px;
+  margin-top: 100px;
+  border-radius: 50%;
+  background-color: rgb(226, 221, 221);
+  box-shadow: 0px 0px 30px rgba(15, 191, 235, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+/* ======================OurVision=======================*/
+#HH1{
+font-family: sans-serif;
+font-style: normal;
+text-align: center;
+color: white;
+padding: 20px;
+}
+
+/* =======About13========*/
+.About13{
+border: 1px solid rgb(235, 10, 115);
+border: none;
+display: grid;
+grid-template-columns: auto auto;
+}
+
+/* =======PAGE12=========*/
+#PAGE12{
+font-size: 23px;
+text-align: center;
+margin: 10px 12px;
+color: white;
+}
+
+/* ========================Skills========================== */
+
+#HH2{
+text-align: center;
+color: white; 
+font-size: 36px;
+font-family: sans-serif;
+padding: 30px;
+}
+    
+.SecoundSkil{
+display: grid;
+grid-template-columns: auto auto auto;
+margin: 20px;
+text-align: center;
+gap: 25px;
+}
+
+.hcss:hover{
+cursor: pointer;
+background-color: rgb(3, 3, 2);
+box-shadow: 0px 0px 30px rgba(15, 191, 235, 0.9);
+transition: all 2s;
+}
+     
+#Facss{
+border: 1px solid green;
+border:none;
+color: rgb(10, 119, 81);
+font-size: 25vh;
+width: 50%;
+height: fit-content;
+font-family: sans-serif; 
+}
+
+#HT{
+color: aliceblue;
+font-size: 25px;
+}
+  
+/*======================ProjectOne======================*/
+.ProjectOne{
+border: 1px solid black;
+text-align: center;
+color: white;
+font-family: sans-serif;
+overflow: auto;
+}
+
+.Image11{
+display: grid;
+grid-template-columns: auto auto;
+gap: 20px;
+margin: 0px;
+overflow: visible;
+}
+
+.Card{
+border: 1px solid rgb(131, 230, 18);
+border: none;
+cursor: pointer;
+}
+
+
+#PPage, #PPage1{
+font-family:  sans-serif;
+text-align: justify;
+margin: 25px;
+}
+
+/* =========================RESUME======================= */
+#AboutHeding{
+color: white;
+text-align: center;
+}
+
+.MainResume{
+color: white;
+display: grid;
+grid-template-columns: auto auto;
+font-size: 20px;
+}
+
+.leftsection {
+padding-left: 25px;
+}
+
+.rightsection{
+padding-left: 35px;
+}
+/* ==========================Contact========================== */
+
+.contact{
+border: 1px solid wheat;
+
+/* border: none; */
+text-align: center;
+width: 80%;
+padding: 10px;
+margin: auto;
+}
+.HSM{
+  margin-right: 74%;
+  color: #eee;
+}
+
+.HH33{
+font-family: sans-serif;
+/* font-style: normal; */
+color: white;
+/* padding: 20px; */
+}
+
+.types{
+background-color: transparent;
+height: 50px;
+width: 90%;
+border-radius: 5px;
+color: white;
+
+}
+
+.typesEmail{
+background-color: transparent;
+color: white;
+height: 100px;
+width: 90%;
+border-radius: 5px;
+
+}
+
+.btn3{
+background-color:  rgb(18, 108, 150);
+/* background-color: green; */
+cursor: pointer;
+height: 50px;
+width: 90%;
+}
+
+  
+      
+      
+      
+      
+
+@media screen and (max-width: 600px) {
+  .body{
+display: flex;
+text-align: center;
+flex-direction: column-reverse;
+margin: auto;
+padding: auto;
+width: 267vw;
+}
+.heading,.rightdiv{width: 100%; margin: auto;}
+  .nav{  width: 268vw; padding: 10px; }
+  .main{width: 175vw; }
+  .MainPageFolio{width: 272vw; font-size: 30px;} 
+  .Image11{ display: grid; grid-template-columns: auto; }
+  .About13{font-size: 30px; display: flow-root;}
+  .HSM{margin-right: 55%;}
+  }
+  
+ 
+  
+
+  
