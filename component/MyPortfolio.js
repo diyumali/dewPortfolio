@@ -197,7 +197,7 @@ function MyPortfolio() {
             *10th pass</p>
 
           <p>2021-2022 <br></br>
-            *12th (agriculture)
+            *12th pass
           </p><br></br>
 
           <p>2024
